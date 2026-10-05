@@ -1,0 +1,7 @@
+git clone https://github.com/<your-username>/text-to-3d.git
+cd text-to-3d
+
+mkdir -p backend frontend notebooks
+touch backend/main.py backend/requirements.txt
+touch notebooks/01_gpu_test.ipynb
+touch README.md .gitignore
